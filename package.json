@@ -1,0 +1,36 @@
+{
+  "name": "7.3",
+  "version": "1.0.0",
+  "description": "jest test",
+  "main": "index.js",
+  "jest": {
+    "verbose": true,
+    "moduleFileExtensions": ["js", "jsx"],
+    "modulePathIgnorePatterns": ["<rootDir>/coverage/", "<rootDir>/node_modules/"],
+    "coverageThreshold": {
+      "global": {
+        "branches": 100,
+        "functions": 100,
+        "lines": 100
+      }
+    }
+  },
+
+  "scripts": {
+    "test": "jest",
+    "coverage": "jest --collectCoverage"
+  },
+  "keywords": [
+    "jest",
+    "test",
+    "jsaqa"
+  ],
+  "author": "omelnikova",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
